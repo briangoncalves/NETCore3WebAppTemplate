@@ -2,9 +2,7 @@
 using NETCore3WebApp.Business;
 using NETCore3WebApp.Infrastructure.DB;
 using NUnit.Framework;
-using System;
 using System.Collections.Generic;
-using System.Text;
 
 namespace NETCore3WebApp.Test.Business.Entity
 {
