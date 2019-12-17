@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="log4net" Version="2.0.8" />
+    <PackageReference Include="Moq" Version="4.13.1" />
+    <PackageReference Include="nunit" Version="3.12.0" />
+    <PackageReference Include="NUnit3TestAdapter" Version="3.15.1" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\NETCore3WebApp.Business\NETCore3WebApp.Business.csproj" />
+    <ProjectReference Include="..\NETCore3WebApp.Domain\NETCore3WebApp.Domain.csproj" />
+    <ProjectReference Include="..\NETCore3WebApp.Infrastructure\NETCore3WebApp.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>
